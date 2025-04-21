@@ -1,0 +1,18 @@
+openai:
+  model: "gpt-4"
+  temperature: 0.5
+  max_tokens: 200
+
+email:
+  seed_path: "app/data/seed_mails"
+  output_path: "outputs/"
+
+export:
+  format: "csv"
+  include_timestamp: true
+
+automation:
+  check_interval_seconds: 3600
+
+database:
+  url: "sqlite:///emails.db"

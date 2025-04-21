@@ -1,0 +1,30 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# IDE & OS junk
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+.cache/
+coverage/
+
+# Logs & DB
+*.log
+emails.db
+
+# Secrets
+.env
+
+
